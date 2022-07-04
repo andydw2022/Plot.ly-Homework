@@ -1,10 +1,30 @@
+
+DataVisualisation Homework using Plotly and Javascript
+======================================================
+
+Layout of files and folders:
+----------------------------
+
+data:
+      samples.json
+Images:
+      Images of what is expected to be shown on the web page
+static:
+      js:
+        app.js contains the code to display the data and make the web page interactive
+index.html: File to run from github web server to see the contents of the web page
+Github link is:
+
+ https://andydw2022.github.io/Plot.ly-Homework
+
+ABout the web page:
+===================
 # Plot.ly Homework - Belly Button Biodiversity
+Data source:
+Hulcr, J. et al.(2012) _A Jungle in There: Bacteria in Belly Buttons are Highly Diverse, but Predictable_. Retrieved from: [http://robdunnlab.com/projects/belly-button-biodiversity/results-and-data/](http://robdunnlab.com/projects/belly-button-biodiversity/results-and-data/)
 
-![Bacteria by filterforge.com](Images/bacteria.jpg)
 
-In this assignment, you will build an interactive dashboard to explore the [Belly Button Biodiversity dataset](http://robdunnlab.com/projects/belly-button-biodiversity/), which catalogs the microbes that colonise human navels.
-
-The dataset reveals that a small handful of microbial species (also called operational taxonomic units, or OTUs, in the study) were present in more than 70% of people, while the rest were relatively rare.
+The dataset reveals that a small handful of microbial species (also called operational taxonomic units, or OTUs, in the study) were present in more than 70% of people's navels, while the rest were relatively rare.
 
 ## Step 1: Plotly
 
@@ -42,19 +62,15 @@ The dataset reveals that a small handful of microbial species (also called opera
 
 6. Update all of the plots any time that a new sample is selected.
 
-Additionally, you are welcome to create any layout that you would like for your dashboard. An example dashboard is shown below:
-
 ![hw](Images/hw02.png)
 
 ## Advanced Challenge Assignment (Optional)
 
-The following task is advanced and therefore optional.
+* Gauge Chart from <https://plot.ly/javascript/gauge-charts/> used to plot the weekly washing frequency of the individual.
 
-* Adapt the Gauge Chart from <https://plot.ly/javascript/gauge-charts/> to plot the weekly washing frequency of the individual.
+* Washing frequency goes from 0-9 per week.
 
-* You will need to modify the example gauge code to account for values ranging from 0 through 9.
-
-* Update the chart whenever a new sample is selected.
+* Chart updated whenever a new individual is selected.
 
 ![Weekly Washing Frequency Gauge](Images/gauge.png)
 
@@ -68,10 +84,3 @@ Deploy your app to a free static page hosting service, such as GitHub Pages. Sub
 
 * Refer to the [Plotly.js documentation](https://plot.ly/javascript/) when building the plots.
 
-### About the Data
-
-Hulcr, J. et al.(2012) _A Jungle in There: Bacteria in Belly Buttons are Highly Diverse, but Predictable_. Retrieved from: [http://robdunnlab.com/projects/belly-button-biodiversity/results-and-data/](http://robdunnlab.com/projects/belly-button-biodiversity/results-and-data/)
-
-- - -
-
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
