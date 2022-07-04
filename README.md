@@ -15,7 +15,8 @@ static:
 index.html: File to run from github web server to see the contents of the web page
 Github link is:
 
- https://andydw2022.github.io/Plot.ly-Homework
+
+ https://andydw2022.github.io/Plot.ly-Homework/
 
 ABout the web page:
 ===================
